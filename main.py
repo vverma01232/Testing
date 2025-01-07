@@ -31,7 +31,7 @@ def main():
 
     print("Training model Now........................................................")
     model = YOLO("yolo11x.pt")  # load a pretrained model (recommended for training)# Train the model with 2 GPUs
-    results = model.train(data=datasets_path+"/thermal1-copy/data.yaml", epochs=10, imgsz=640, plots=True)
+    results = model.train(data=datasets_path+"/thermal1-copy-2/data.yaml", epochs=10, imgsz=640, plots=True)
 
 if __name__ == "__main__":
     main()
