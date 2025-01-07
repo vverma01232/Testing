@@ -27,7 +27,7 @@ def main():
     dataset = version.download("yolov11")
     
     print("Dataset downloaded successfully to:", datasets_path)
-    print("Yaml localtion: ", data=datasets_path+"datasets/thermal1-copy/data.yaml")
+    # print("Yaml localtion: ", data=datasets_path+"datasets/thermal1-copy/data.yaml")
 
     print("Training model Now........................................................")
     model = YOLO("yolo11x.pt")  # load a pretrained model (recommended for training)# Train the model with 2 GPUs
