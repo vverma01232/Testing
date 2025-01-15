@@ -22,7 +22,7 @@ def main():
     
     # Access workspace and project
     workspace = rf.workspace("aetos")
-    project = workspace.project("thermal1-copy-4-4")
+    project = workspace.project("thermal1-copy-4")
     version = project.version(4)
     dataset = version.download("yolov11")
     
